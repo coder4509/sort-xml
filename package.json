@@ -1,0 +1,41 @@
+{
+  "name": "sort-xml",
+  "version": "1.0.0",
+  "description": "Sort XML Attribute ASC DESC",
+  "main": "dist/sort-xml.js",
+  "scripts": {
+    "build": "babel index.js --out-file ./dist/sort-xml.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "xml",
+    "xml sort",
+    "sort",
+    "xml-sort",
+    "sort-xml",
+    "sort xml",
+    "format xml",
+    "xml"
+  ],
+  "author": "coder4509",
+  "license": "ISC",
+  "repository": "https://github.com/coder4509/sort-xml.git",
+  "dependencies": {
+    "@liquify/prettify": "0.5.5-beta.1",
+    "chalk": "3.0.0",
+    "xml2js": "0.6.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.23.4",
+    "@babel/core": "7.23.7",
+    "@babel/node": "7.22.19",
+    "@babel/preset-env": "7.23.8",
+    "yargs": "17.7.2"
+  },
+  "bin": {
+    "sort-xml": "./dist/sort-xml.js"
+  }
+}
