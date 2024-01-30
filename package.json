@@ -22,7 +22,10 @@
   ],
   "author": "coder4509",
   "license": "ISC",
-  "repository": "https://github.com/coder4509/sort-xml.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coder4509/sort-xml.git"
+  },
   "dependencies": {
     "@liquify/prettify": "0.5.5-beta.1",
     "chalk": "3.0.0",
@@ -36,6 +39,10 @@
     "yargs": "17.7.2"
   },
   "bin": {
-    "sort-xml": "./dist/sort-xml.js"
-  }
+    "sort-xml": "dist/sort-xml.js"
+  },
+  "bugs": {
+    "url": "https://github.com/coder4509/sort-xml/issues"
+  },
+  "homepage": "https://github.com/coder4509/sort-xml#readme"
 }
